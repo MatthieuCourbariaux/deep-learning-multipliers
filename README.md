@@ -15,7 +15,7 @@ The article in question assesses whether it is possible to train Deep Neural Net
 
 Note that this code only simulates the impact of low precision storage.
 It does not exploit it in any way.
-If you are looking for fast low precision kernels for GPU, you should rather try https://github.com/NervanaSystems/nervanagpu . 
+If you are looking for fast low precision GPU kernels, NervanaSystems made some available https://github.com/NervanaSystems/nervanagpu . 
 
 ## How to run it
 
