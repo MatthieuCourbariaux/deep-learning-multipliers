@@ -11,7 +11,11 @@
 
 This code was written to allow anyone to easily reproduce the results 
 of the article "Low precision storage for deep learning", available at http://arxiv.org/abs/1412.7024 .
-Please note however that the results will slightly vary depending on the environment.
+The article in question assesses whether it is possible to train Deep Neural Networks with low precision storage.
+
+Note that this code only simulates the impact of low precision storage.
+It does not exploit it in any way.
+If you are looking for fast low precision kernels for GPU, you should rather try https://github.com/NervanaSystems/nervanagpu . 
 
 ## How to run it
 
