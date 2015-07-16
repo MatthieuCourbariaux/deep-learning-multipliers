@@ -1,4 +1,4 @@
-# deep-learning-storage
+# deep-learning-multipliers
 
 ## Requirements
 
@@ -10,10 +10,10 @@
 ## Goal
 
 This code was written to allow anyone to easily reproduce the results 
-of the article "Low precision storage for deep learning", available at http://arxiv.org/abs/1412.7024 .
-The article in question assesses whether it is possible to train Deep Neural Networks with low precision storage.
+of the article "Deep learning with low precision multipliers", available at http://arxiv.org/abs/1412.7024 .
+The article in question assesses whether it is possible to train Deep Neural Networks with low precision multipliers.
 
-Note that this code only simulates the impact of low precision storage.
+Note that this code only simulates the impact of low precision multipliers.
 It does not exploit it in any way.
 If you are looking for fast low precision GPU kernels, NervanaSystems made some available https://github.com/NervanaSystems/nervanagpu . 
 
@@ -67,7 +67,7 @@ It is the number of batches between two ranges updates.
 ### Maximum overflow rate
 
 Only useful for DFXP.
-It is the amount of overflow tolerated before augmenting the range.
+It is the amount of overflow tolerated before modifying the range.
     
 ### Number of epochs of range initialization
 
